@@ -19,40 +19,39 @@ Terminal veya Komut İstemcisi (CMD, PowerShell ya da bash) kullanıyor olmalıs
 
 📦 GEREKLİ KÜTÜPHANELERİ KUR
 ```
-python
 pip install speechrecognition requests pyaudio
 ```
 🔴 Not: pyaudio bazı sistemlerde kurulum hatası verebilir. Eğer hata alırsan, şu komutu dene:
 
 Windows:
-
-bash
-Kopyala
-Düzenle
+```
 pip install pipwin
 pipwin install pyaudio
+```
+
 macOS:
 
-bash
-Kopyala
-Düzenle
+```
 brew install portaudio
 pip install pyaudio
+```
+
 🧠 OLLAMA MODELİNİ YÜKLE
 https://ollama.com adresinden Ollama'yı indir ve kur.
 
 Terminalde aşağıdaki komutla bir model indir:
 
-bash
-Kopyala
-Düzenle
+```
 ollama pull qwen2.5:1.5b
+```
+
+
 veya
 
-bash
-Kopyala
-Düzenle
+```
 ollama pull mistral
+```
+
 Model yüklendikten sonra, script içerisindeki "model": "qwen2.5:1.5b" kısmını değiştirmene gerek yok (ama istersen mistral, llama3, gemma vb. modellerle değiştirebilirsin).
 
 ▶️ ÇALIŞTIRMA
@@ -60,16 +59,16 @@ Betik dosyasını örneğin voice_assistant.py olarak kaydet.
 
 Terminalde bulunduğun klasöre git:
 
-bash
-Kopyala
-Düzenle
+```
 cd /dosya/yolu/voice_assistant_klasoru
+```
+
 Çalıştır:
 
-bash
-Kopyala
-Düzenle
+```
 python voice_assistant.py
+```
+
 🗣️ NASIL KULLANILIR?
 Terminalde "Konuşabilirsiniz..." mesajı geldiğinde mikrofonunu kullanarak konuş.
 
