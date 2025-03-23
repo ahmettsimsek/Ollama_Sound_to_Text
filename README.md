@@ -18,10 +18,10 @@ Python 3.8+ yüklü olmalı.
 Terminal veya Komut İstemcisi (CMD, PowerShell ya da bash) kullanıyor olmalısın.
 
 📦 GEREKLİ KÜTÜPHANELERİ KUR
-bash
-Kopyala
-Düzenle
+```
+python
 pip install speechrecognition requests pyaudio
+```
 🔴 Not: pyaudio bazı sistemlerde kurulum hatası verebilir. Eğer hata alırsan, şu komutu dene:
 
 Windows:
