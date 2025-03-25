@@ -42,7 +42,6 @@ https://ollama.com adresinden Ollama'yı indir ve kur.
 Terminalde aşağıdaki komutla bir model indir:
 
 ```
-type pyhon
 ollama pull qwen2.5:1.5b
 ```
 
